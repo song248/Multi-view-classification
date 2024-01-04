@@ -1,0 +1,92 @@
+progression
+
+눈꺼풀 측정은 여기서 마무리
+
+before/after progress 
+- 새로운 모형 x
+- 이미지를 2장 넣어서 결과 뽑는 네트워크 찾기
+    저명한 컨퍼런스 레퍼런스꺼 가져와서 보자
+    기존/새거 확보 하는게 우선
+    네트워크 구현해서 결과 보기
+    지금은 새로운 아이디어 넣지 않는다
+    
+
+석사 송태경(이재성)  태경이. 
+
+이번 눈꺼풀 연구 이후에 진행할 before/after progress 연구와 관련하여 찾아봐야 할 논문들을 아래와 같이 정리하여 전달하니 여기서부터 이 연구에 적용할 수 있는 신경망을 찾아보길 바람.
+
+Automated diagnosis of bone metastasis based on multi-view bone scans using attention-augmented deep neural networks
+Medical Image Analysis, 65:101784, 2020
+https://www.sciencedirect.com/science/article/pii/S1361841520301481?casa_token=azNPJdgGEpgAAAAA:MH0ZDeK9-dWWZef-6f5lb4IBU-oHOBwHbewLEYUfjNKe5VslHqpmrPpK627mZACisYv_j1v2RQ
+
+
+Reconstruct Dynamic Soft-Tissue With Stereo Endoscope Based on a Single-Layer Network
+IEEE Transactions on Image Processing, 31:5828--5840, 2022
+https://ieeexplore.ieee.org/abstract/document/9875031?casa_token=IzdxWlt4F3cAAAAA:7umOkfbhB995o5qAoDYbFWG2BEzq0AWbJjtavz4p9cvzYojrwL__CllaELDe7lmR-XVzdITP
+XXXX -> GAN 
+
+Deep multi-view learning methods: A review
+Neurocomputing, 448:106--129, 2021
+https://www.sciencedirect.com/science/article/pii/S0925231221004768?casa_token=6rC8aFu9cEcAAAAA:Yjdupl9XEurJyHK7taX9IYcaL10Qka-gmLRz7RVqwLzcw9GQG81qDX7iqKCljP2ZnAQ-SAGw1Q
+-> FBCNet
+
+Review of Stereo Matching Algorithms Based on Deep Learning
+Computational Intelligence and Neuroscience, 2020:8562323, 2020
+https://www.hindawi.com/journals/cin/2020/8562323/
+-> PSMNet(Pyramid Stereo Matching Network)
+
+Stereo matching algorithm based on deep learning: A survey
+Journal of King Saud University - Computer and Information Sciences, 34(5):1663--1673, 2022
+https://www.sciencedirect.com/science/article/pii/S1319157820304493
+XXXX
+
+
+석사 송태경(이재성)  해당 연구에 적용할 수 있는 기법들이라면 multi-view image analysis 또는 stereo (image) matching 정도가 있을 것임. 
+내가 전달한 연구 중 위의 2개는 바로 적용이 가능할 것으로 보임. 
+
+아래 3개는 리뷰 논문을 전달한 것인데 이 중에서 대상이 될만한 논문을 찾아주길 바람. 
+찾아낸 신경망들이 무엇인지 가능하면 다음 주 금요일에 발표할 수 있도록 해주길 바람. 
+파일럿 실험 결과까지 나올 수 있다면 더 좋음.
+
+before / after CT가 모두 있는 환자의 CT 데이터 확보가 완료되었는지, 완료되지 않았다면 언제까지 가능할지 나에게 알려주길 바람.
+그리고 연구원을 할당하여 우리가 확보하고 있는 시티 이미지 중에서 전후 사진이 모두 있는 환자가 몇 명인지 파악해주길 바람.
+
+추가로 해당 연구와 관련이 있는 연구 키워드는 bi-temporal image analysis임. 
+관련 연구들이 많긴 한데 보통 위성 이미지에 대한 연구가 많으니 그 중에서 잘 골라내어야 하겠음.
+
+Between-Class learning ?!
+
+
+
+리스트업
+
+Automated diagnosis of bone metastasis based on multi-view bone scans using attention-augmented deep neural networks
+Medical Image Analysis, 65:101784, 2020
+https://www.sciencedirect.com/science/article/pii/S1361841520301481?casa_token=azNPJdgGEpgAAAAA:MH0ZDeK9-dWWZef-6f5lb4IBU-oHOBwHbewLEYUfjNKe5VslHqpmrPpK627mZACisYv_j1v2RQ
+
+
+FBCNet
+A Multi-view CNN with Novel Variance Layer for Motor Imagery Brain Computer Interface
+2020 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC). IEEE, 2020.
+https://ieeexplore.ieee.org/abstract/document/9175874
+https://github.com/ravikiran-mane/FBCNet
+
+PSMNet
+Pyramid Stereo Matching Network
+Proceedings of the IEEE conference on computer vision and pattern recognition. 2018.
+https://openaccess.thecvf.com/content_cvpr_2018/html/Chang_Pyramid_Stereo_Matching_CVPR_2018_paper.html
+https://github.com/JiaRenChang/PSMNet
+
+
+IEEE transactions on pattern analysis and machine intelligence (2022).
+
+
+내가 찾은거
+
+Trusted Multi-View Classification With Dynamic Evidential Fusion
+https://ieeexplore.ieee.org/abstract/document/9767662
+https://github.com/hanmenghan/TMC
+
+Multi-View Coupled Self-Attention Network for Pulmonary Nodules Classification
+https://openaccess.thecvf.com/content/ACCV2022/html/Zhu_Multi-View_Coupled_Self-Attention_Network_for_Pulmonary_Nodules_Classification_ACCV_2022_paper.html\
+https://github.com/ahukui/MVCS
